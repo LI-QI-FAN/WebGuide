@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>学(mo)习(yu)导航</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/bifl.avif" />
+</head>
+<body>
+
+<header class="hero">
+    <!-- 右上角操作区 -->
+    <div class="top-actions">
+        <button id="themeToggle" title="切换白天 / 夜间模式">☀️</button>
+    </div>
+
+    <h1>学(mo)习(yu)导航</h1>
+    <p>精选开发者常用工具与资源</p>
+    <input id="search" placeholder="搜索网站 / 工具…" />
+</header>
+
+
+
+<div class="layout">
+    <!-- 左侧分类 -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <button id="collapseToggle" title="折叠侧栏">⏪</button>
+        </div>
+    </aside>
+
+    <!-- 右侧内容 -->
+    <main class="content" id="container"></main>
+</div>
+
+<footer class="quickbar" aria-label="底部快捷导航">
+    <nav class="quickbar-inner">
+        <a class="qb-item" href="https://www.google.com" target="_blank" rel="noopener" title="Google">
+            <span class="qb-icon">🔎</span>
+            <span class="qb-label">Google</span>
+        </a>
+        <a class="qb-item" href="https://www.facebook.com" target="_blank" rel="noopener" title="Facebook">
+            <span class="qb-icon">📘</span>
+            <span class="qb-label">Facebook</span>
+        </a>
+        <a class="qb-item" href="https://www.youtube.com" target="_blank" rel="noopener" title="YouTube">
+            <span class="qb-icon">▶️</span>
+            <span class="qb-label">YouTube</span>
+        </a>
+        <a class="qb-item" href="https://x.com" target="_blank" rel="noopener" title="X">
+            <span class="qb-icon">𝕏</span>
+            <span class="qb-label">X</span>
+        </a>
+        <a class="qb-item" href="https://www.linkedin.com" target="_blank" rel="noopener" title="LinkedIn">
+            <span class="qb-icon">💼</span>
+            <span class="qb-label">LinkedIn</span>
+        </a>
+        <a class="qb-item" href="https://github.com" target="_blank" rel="noopener" title="GitHub">
+            <span class="qb-icon">🐙</span>
+            <span class="qb-label">GitHub</span>
+        </a>
+        <a class="qb-item" href="https://liqifan.com/poem/" target="_blank" rel="noopener" title="诗集">
+            <span class="qb-icon">
+                <img style="height: 20px; width: 20px" src="assets/img/daman_game.avif">
+            </span>
+            <span class="qb-label">Poem</span>
+        </a>
+    </nav>
+</footer>
+
+
+<!--导航数据-->
+<script src="assets/js/data.js"></script>
+<!--所有交互逻辑（唯一入口I入口）-->
+<script src="assets/js/app.js"></script>
+
+</body>
+
+
+</html>
