@@ -10,6 +10,24 @@ const navData = [
                 desc: "对话式 AI"
             },
             {
+                name: "deepseek",
+                url: "https://chat.deepseek.com/",
+                desc: "探索未至之境",
+                icon: 'assets/img/deepseek.svg',
+            },
+            {
+                name: "豆包",
+                url: "https://www.doubao.com/chat/",
+                desc: "字节跳动旗下AI智能助手",
+                icon: "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/chat/static/image/logo-icon-white-bg.72df0b1a.png"
+            },
+            {
+                name: "元宝",
+                url: "https://yuanbao.tencent.com/chat/naQivTmsDa",
+                desc: "高效AI助手",
+                icon: "https://static.yuanbao.tencent.com/modern/_next/static/media/logo_light.d078142a.svg"
+            },
+            {
                 name: "Claude",
                 url: "https://claude.ai",
                 desc: "Anthropic 大模型"
